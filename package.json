@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.10",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.3",
+    "sequelize": "^6.17.0",
+    "umzug": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "migration:down": "node utils/rollback.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
